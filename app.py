@@ -6,9 +6,9 @@ from visualization2 import plot_laser_shots, plot_expected_vs_actual, plot_diffe
 import pandas as pd
 
 # Loading the data from excel files for error code analysis
-PLS_df = pd.read_excel("c:/Users/320258268/OneDrive - Philips/Desktop/output.xlsx")
-Error_df = pd.read_excel("c:/Users/320258268/OneDrive - Philips/Desktop/ErrorCodes.xlsx")
-catheterdesc_df = pd.read_excel("c:/Users/320258268/OneDrive - Philips/Desktop/CathPinCodes.xlsx")
+PLS_df = pd.read_excel("https://github.com/jms266/PLS_Dashboard/blob/main/output.xlsx")
+Error_df = pd.read_excel("https://github.com/jms266/PLS_Dashboard/blob/main/ErrorCodes.xlsx")
+catheterdesc_df = pd.read_excel("https://github.com/jms266/PLS_Dashboard/blob/main/CathPinCodes.xlsx")
 catheterdesc_df['Pin Code'] = catheterdesc_df['Pin Code'].astype(str)
 
 def main():
